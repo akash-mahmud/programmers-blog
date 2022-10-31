@@ -5,16 +5,11 @@ import React from 'react'
 
 const index = ({children}:layOutProps) => {
   return (
-    <>
-      <div className="container mx-auto font-sans">
-        <Header />
-        <main>
-
-        {children}
-        </main>
-      <Footer/>
-      </div>
-    </>
+    <div className="container mx-auto font-sans ">
+      <Header />
+      <main className="pb-32">{children}</main>
+      <Footer />
+    </div>
   );
 }
 

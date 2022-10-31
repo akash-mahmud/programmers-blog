@@ -5,11 +5,10 @@ import Layout from '@/layout/index'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <NextNProgress color="#e00000" options={{ showSpinner: false }} />
+      <NextNProgress color="#53BD95" options={{ showSpinner: false }} />
       <Layout>
-        
-      <Component {...pageProps} />
-</Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
